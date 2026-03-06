@@ -20,8 +20,8 @@
 - Tối ưu Recall nhằm giảm thiểu False Negative (tránh bỏ sót bệnh nhân mắc bệnh).
 ## 4. Công nghệ dự kiến
 - ML:
-Ngôn ngữ: Python
-Thư viện: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
+Ngôn ngữ: Python.
+Thư viện: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn.
 Thuật toán dự kiến: Logistic Regression, Decision Tree, Random Forest, KNN
 - Frontend: Streamlit (xây dựng giao diện web đơn giản để nhập chỉ số và dự đoán)
 - Backend:
