@@ -25,7 +25,7 @@ Thư viện: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn.
 Thuật toán dự kiến: Logistic Regression, Decision Tree, Random Forest, KNN
 - Frontend: Streamlit (xây dựng giao diện web đơn giản để nhập chỉ số và dự đoán)
 - Backend:
-Python (Flask/FastAPI nếu tách API)
+Python (Flask/FastAPI nếu tách API).
 Xử lý và load model bằng Pickle/Joblib
 - **DB:** SQLite
 ## 5. Phân công công việc
