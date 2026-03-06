@@ -6,7 +6,7 @@
 - Nguyễn Lê Duy Vương - 2351050206
 - Nguyễn Huỳnh Như Ý - 2351050211
 - Võ Hồng Yến - 2351010257
-- GVHD:
+- GVHD: VÕ VIỆT KHOA
 ## 2. Đề tài chọn
 - **Đề tài số:** 10
 - **Tên:** Diabetes Prediction
