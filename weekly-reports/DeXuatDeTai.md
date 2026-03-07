@@ -49,7 +49,7 @@ Kiểm thử hệ thống, demo, chụp hình.
 Hoàn thiện báo cáo cuối kỳ.
 ## 6. Timeline
 - Tuần 1: Đề xuất đề tài
-- Tuần 2 + 3: Notebook EDA, Preprocessing, Modeling
-- Tuần 4 + 5 + 6: Model + Persistence, wandb
+- Tuần 2 + 3: Notebook EDA, Preprocessing
+- Tuần 4 + 5 + 6: Modeling + Persistence, wandb
 - Tuần 7:   FE + BE, Demo, Báo cáo 
 - Tuần 8: Nộp bài + Bảo vệ
