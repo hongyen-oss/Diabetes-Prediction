@@ -49,7 +49,7 @@ Kiểm thử hệ thống, demo, chụp hình.
 Hoàn thiện báo cáo cuối kỳ.
 ## 6. Timeline
 - Tuần 1: Đề xuất đề tài
-- Tuần 2 + 3: Notebook EDA + Pipeline
-- Tuần 4 + 5 + 6: ≥3 models, chọn 1 model, lưu joblib, wandb ≥3 runs
+- Tuần 2 + 3: Notebook EDA, Preprocessing, Modeling
+- Tuần 4 + 5 + 6: Model + Persistence, wandb
 - Tuần 7:   FE + BE, Demo, Báo cáo 
 - Tuần 8: Nộp bài + Bảo vệ
