@@ -1,8 +1,8 @@
 # Báo cáo Tuần 1
-**Tuần:** 1 (01/03/2026 - 08/03/2026)
-**Nhóm:** 11
-**Đề tài:** 10-Diabetes Prediction
-**Nhóm trưởng:** Võ Hồng Yến - 2351010257
+- **Tuần:** 1 (01/03/2026 - 08/03/2026)
+- **Nhóm:** 11
+- **Đề tài:** 10-Diabetes Prediction
+- **Nhóm trưởng:** Võ Hồng Yến - 2351010257
 ---
 # 1. công việc đã hoàn thành
 |        Thành viên    |    MSSV    |                      Công việc                                  | Link Commit/PR |
