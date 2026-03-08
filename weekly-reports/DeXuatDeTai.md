@@ -29,24 +29,12 @@ Python (Flask/FastAPI nếu tách API).
 Xử lý và load model bằng Pickle/Joblib
 - **DB:** SQLite
 ## 5. Phân công công việc
-- Thành viên 1 (Project Manager): 
-Lập kế hoạch, quản lý tiến độ.
-Phân công công việc, theo dõi timeline.
-Tổng hợp báo cáo, slide, weekly report.
-- Thành viên 2 (ML / Data Scientist):
-EDA, xử lý missing & outlier.
-Feature engineering.
-Xây dựng ≥ 3 mô hình, tuning.
-Đánh giá (ưu tiên Recall), lưu model.
-- Thành viên 3 (Backend – API):
-Xây dựng API (Flask/FastAPI).
-Load model, tạo endpoint predict.
-Test API.
-- Thành viên 4 (Frontend + QA):
-Thiết kế giao diện nhập chỉ số.
-Tích hợp API, hiển thị kết quả.
-Kiểm thử hệ thống, demo, chụp hình.
-Hoàn thiện báo cáo cuối kỳ.
+|      Thành viên      |    Công việc chính    | Timeline |
+|----------------------|-----------------------|----------|
+|          Yến         |           PM          | Tuần 1-8 |
+| Ngoan, Vương, Ý, Yến |       ML/Notebook     | Tuần 2-6 |
+| Ngoan, Vương, Ý, Yến | FE, BE, Demo, Báo cáo |  Tuần 7  |
+| Ngoan, Vương, Ý, Yến |    Nộp bài, Bảo vệ    |  Tuần 8  |
 ## 6. Timeline
 - Tuần 1: Đề xuất đề tài
 - Tuần 2 + 3: Notebook EDA, Preprocessing
