@@ -25,8 +25,8 @@
 |        Thành viên     |                  Công việc dự kiến             |
 |-----------------------|------------------------------------------------|
 | Nguyễn Lê Duy Vương   | Kiểm tra dữ liệu, missing values               |
-| Nguyễn Huỳnh Như Ý    | 4 biểu đồ phân bố dữ liệu                      |
-| Nguyễn Thị Ngọc Ngoan | 4 biểu đồ phân tích quan hệ                    |
+| Nguyễn Huỳnh Như Ý    | 4 biểu đồ phân bố quan hệ                      |
+| Nguyễn Thị Ngọc Ngoan | 4 biểu đồ phân tích dữ liệu                    |
 | Võ Hồng Yến           | correlation heaatmap + phân tích biến mục tiêu |
 
 ## 4. Khó khăn/ Cần hỗ trợ
