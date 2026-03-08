@@ -21,7 +21,8 @@
 | Phân công công việc | Đã hoàn thành | 100% |
 **Tổng kết tiến độ: 100%**
 ---
-# 3. Kế hoạch tuần 2; EDA
+# 3. Kế hoạch tuần 2
+- EDA
 |        Thành viên     |                  Công việc dự kiến             |
 |-----------------------|------------------------------------------------|
 | Nguyễn Lê Duy Vương   | Kiểm tra dữ liệu, missing values               |
