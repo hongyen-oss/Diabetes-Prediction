@@ -21,13 +21,13 @@
 | Phân công công việc | Đã hoàn thành | 100% |
 **Tổng kết tiến độ: 100%**
 ---
-# 3. Kế hoạch tuần tới
-|        Thành viên     |   Công việc dự kiến       |
-|-----------------------|---------------------------|
-| Nguyễn Thị Ngọc Ngoan |
-| Nguyễn Lê Duy Vương   |
-| Nguyễn Huỳnh Như Ý    |
-| Võ Hồng Yến           |
+# 3. Kế hoạch tuần 2; EDA
+|        Thành viên     |                  Công việc dự kiến             |
+|-----------------------|------------------------------------------------|
+| Nguyễn Lê Duy Vương   | Kiểm tra dữ liệu, missing values               |
+| Nguyễn Huỳnh Như Ý    | 4 biểu đồ phân bố dữ liệu                      |
+| Nguyễn Thị Ngọc Ngoan | 4 biểu đồ phân tích quan hệ                    |
+| Võ Hồng Yến           | correlation heaatmap + phân tích biến mục tiêu |
 
 ## 4. Khó khăn/ Cần hỗ trợ
 - Tạm thời vẫn chưa có khó khăn trong tuần 1
