@@ -1,4 +1,4 @@
-# Báo cáo Tuần 1
+# Báo cáo Tuần 2
 - **Tuần:** 2 (09/03/2026 - 15/03/2026)
 - **Nhóm:** 11
 - **Đề tài:** 10-Diabetes Prediction
@@ -21,7 +21,7 @@
 | Phân tích biên mục tiêu + Corelation Heatmap | Đã hoàn thành thành | 100% |
 **Tổng kết tiến độ: 100%**
 ---
-# 3. Kế hoạch tuần 2: EDA
+# 3. Kế hoạch tuần 3:  Data Preprocessing + Pipeline 
 |        Thành viên     |                  Công việc dự kiến             |
 |-----------------------|------------------------------------------------|
 | Nguyễn Lê Duy Vương   |                
