@@ -22,11 +22,14 @@
 **Tổng kết tiến độ: 100%**
 ---
 # 3. Kế hoạch tuần 3:  Data Preprocessing + Pipeline 
-|        Thành viên     |                  Công việc dự kiến             |
-|-----------------------|------------------------------------------------|
-| Nguyễn Lê Duy Vương   |                
-| Nguyễn Huỳnh Như Ý    |                     
-| Nguyễn Thị Ngọc Ngoan |                    
-| Võ Hồng Yến           |
+|        Thành viên     |               Công việc dự kiến        |
+|-----------------------|----------------------------------------|
+|                       | Handle missing values                  |
+|                       | Encoding                               |
+|                       | Scaling + Train-test split             |
+|                       | sklearn Pipeline + ≥2 features mới     |
 
 ## 4. Khó khăn/ Cần hỗ trợ
+---
+*Ngày nộp: 15/03/2026*
+*Xác nhận của Nhóm trưởng: Võ Hồng Yến*
