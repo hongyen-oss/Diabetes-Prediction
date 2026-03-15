@@ -26,7 +26,7 @@
 |-----------------------|-----------------------------------------------------------------------------|
 |                       | Handle missing values + Train-test split(test_size=0.2, stratify) + Scaling |
 |                       | Cân bằng dữ liệu (SMOTE) + Model Training (Random Forest)                   |
-|                       | Gộp Pipeline + Đánh giá mô hình                                             |
+|                       | Đánh giá mô hình + Gộp Pipeline                                             |
 |                       | ≥2 features mới+ train lại model( giải thích, đánh giá so với mô hình cũ)   |
 
 ## 4. Khó khăn/ Cần hỗ trợ
