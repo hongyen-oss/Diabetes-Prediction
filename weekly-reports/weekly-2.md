@@ -24,8 +24,8 @@
 # 3. Kế hoạch tuần 3:  Data Preprocessing + Pipeline 
 |        Thành viên     |                      Công việc dự kiến                                      |
 |-----------------------|-----------------------------------------------------------------------------|
-|                       | Handle missing values + Train-test split(test_size=0.2, stratify) + Scaling |
-|                       | Cân bằng dữ liệu (SMOTE) + Model Training (Random Forest)                   |
+|                       | Handle missing values + Cân bằng dữ liệu (SMOTE) + Scaling                  |
+|                       | Train-test split(test_size=0.2, stratify) + Model Training (Random Forest)  |
 |                       | Đánh giá mô hình + Gộp Pipeline                                             |
 |                       | ≥2 features mới+ train lại model( giải thích, đánh giá so với mô hình cũ)   |
 
