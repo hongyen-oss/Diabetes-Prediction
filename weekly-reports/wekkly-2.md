@@ -24,10 +24,10 @@
 # 3. Kế hoạch tuần 3:  Data Preprocessing + Pipeline 
 |        Thành viên     |               Công việc dự kiến        |
 |-----------------------|----------------------------------------|
-|                       | Handle missing values                  |
-|                       | Encoding                               |
-|                       | Scaling + Train-test split             |
-|                       | sklearn Pipeline + ≥2 features mới     |
+|                       |               |
+|                       |                             |
+|                       |            |
+|                       |     |
 
 ## 4. Khó khăn/ Cần hỗ trợ
 
