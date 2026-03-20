@@ -12,3 +12,7 @@
 | Nguyễn Huỳnh Như Ý   | 2351050211 | 1.4. Modeling                                |----------------|
 | Nguyễn Lê Duy Vương  | 2351050206 | 1.5. Evaluation                              |----------------|
 
+## 4. Khó khăn/ Cần hỗ trợ
+
+-**Ngày nộp:** /03/2026
+-**Xác nhận của Nhóm trưởng:** Võ Hồng Yến
