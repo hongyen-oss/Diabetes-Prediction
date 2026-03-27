@@ -5,13 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="04b81d32-0028-49f3-80c0-788a62401641" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Notebooks/model.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notebooks/feature.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Notebooks/feature.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Notebooks/project_analysis.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Notebooks/project_analysis.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test_df.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/test_df.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_df.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/train_df.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jupyter Notebook" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
