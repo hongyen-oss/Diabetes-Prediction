@@ -2,10 +2,6 @@
 - **Loại bài toán:** Classification
 - **Dataset:** Kaggle-Pima Indians Diabetes
 -  Link: https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database
-# Tổng quan về project# Diabetes-Prediction
-- **Loại bài toán:** Classification
-- **Dataset:** Kaggle-Pima Indians Diabetes
--  Link: https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database
 # Tổng quan về project
 Dự đoán bệnh tiểu đường là một thành phần thiết yếu trong y học dự phòng, tập trung vào việc phân tích các chỉ số sinh học và dữ liệu lâm sàng để đánh giá nguy cơ mắc bệnh của một cá nhân. Quy trình này tích hợp các thông tin nhân khẩu học như độ tuổi, giới tính cùng với các chỉ số sức khỏe quan trọng bao gồm chỉ số khối cơ thể (BMI), nồng độ glucose trong máu và huyết áp.
 
