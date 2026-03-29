@@ -5,15 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="04b81d32-0028-49f3-80c0-788a62401641" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Notebooks/feature.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Notebooks/feature.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notebooks/data.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notebooks/feature.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notebooks/model.ipynb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Notebooks/project_analysis.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Notebooks/project_analysis.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/test_df.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/test_df.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/train_df.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/train_df.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test_df.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_df.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/api-docs.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,10 +63,15 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/ngoc_ngoan/Documents/TTNT/Diabetes-Prediction",
-    "settings.editor.selected.configurable": "configurable.group.python.group.settings"
+    "last_opened_file_path": "D:/Diabetes-Prediction",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Diabetes-Prediction" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
