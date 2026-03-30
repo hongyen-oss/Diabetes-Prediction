@@ -12,7 +12,7 @@
 - Xây dựng một mô hình Machine Learning nhằm dự đoán khả năng mắc bệnh tiểu đường dựa trên các chỉ số sinh học (Glucose, BMI, Blood Pressure, Insulin, SkhinThickness) và Thông tin tiền sử ( Age, Pregnancies).
 - ComeOut: Có mắc bệnh (1) hoặc không (0)
 - Bài toán này thuộc dạng classification (phân loại nhị phân)
-***Ứng dụng thực tế:***
+<br>***Ứng dụng thực tế:***
 - Hỗ trợ bác sĩ trong chẩn đoán ban đầu
 - Giảm chi phí xét nghiệm chuyên sâu
 - Triển khai trong hệ thống web app
