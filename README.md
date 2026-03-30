@@ -1,6 +1,14 @@
 # Đề tài: số 10 - Diabetes-Prediction 
 <img width="800" height="450" alt="image" src="https://github.com/user-attachments/assets/1a69318b-bacf-439d-8b66-ed7d48c37984" />
 
+# Thành viên nhóm
+|    MSSV     |      Họ và Tên         |         Vai trò       |
+|-------------|------------------------|-----------------------|
+| 2351050114  | Nguyễn Thị Ngọc Ngoan  |                       |
+| 2351050206  | Nguyễn Lê Duy Vương    |                       |
+| 2351050211  | Nguyễn Huỳnh Như Ý     |                       |
+| 2351010257  | Võ Hồng Yến            |                       |   
+
 # 1. Mô tả
 ## ***Tổng quan về project***
 - Trong bối cảnh hiện nay, các bệnh mãn tính như ***tiểu đường (diabetes)*** đang gia tăng nhanh chóng và trở thành một trong những vấn đề y tế toàn cầu. Việc phát hiện sớm nguy cơ mắc bệnh đóng vai trò quan trọng trong việc điều trị và giảm thiểu biến chứng.
@@ -21,14 +29,28 @@
 <br> -- Tối ưu hiệu suất mô hình, đặc biệt giảm thiểu trường hợp bỏ sót bệnh nhân (false negative)
 <br> -- Đánh giá mô hình bằng các chỉ số phù hợp như Recall và F1-score
 <br> -- Triển khai trong hệ thống web app
-## Thành viên nhóm
-|                       |      Họ và Tên     |   Vai trò    |
-|-----------------------|----------------------|-----------------------|
-|       |       |                 |
-|  |     
-|| 
-|| |   |   
-| ||        |  
+# 2. Công nghệ:
+- Machine learning: Python, Jupyter, Sklearn
+- Frontend: ReactJS
+- Backend: Flask
+- Tracking: wandb
+# 3. Cài đặt và chạy
+### Yêu cầu
 
+### Chạy Notebook 
+project_analysis.ipynb 
+### Chạy Backend 
 
+### Chạy Frontend 
+
+### Truy cập
+- Frontend: 
+- API:
+# 4. Demo
+- wandb: [link:]
+- Screenshot:
+- Video: [link:] 
+# 5. Nộp bài
+- Báo cáo: .pdf
+- wandb link: .txt 
 
