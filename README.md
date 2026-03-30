@@ -10,9 +10,9 @@
 - ***Phân loại***: Classification (phân loại nhị phân)
 - ***Link:*** https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database
 - ***Bao gồm:***
-<br> Số mẫu: 768
-<br> Số features: 8 ( Glucose, BloodPressure, BMI, Insulin, Age, Pregnancies, SkinThickness, DiabetesPedigreeFunction)
-<br> Biến mục tiêu: Outcome (0/1)
+<br> + Số mẫu: 768
+<br> + Số features: 8 ( Glucose, BloodPressure, BMI, Insulin, Age, Pregnancies, SkinThickness, DiabetesPedigreeFunction)
+<br> --Biến mục tiêu: Outcome (0/1)
 - ***Đặc điểm raw dataset:***
 <br> Có giá trị thiếu (được biểu diễn bằng 0)
 <br> Một số feature có phân phối lệch
