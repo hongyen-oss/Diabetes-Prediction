@@ -1,7 +1,7 @@
 # Đề tài: số 10 - Diabetes-Prediction 
 <img width="800" height="450" alt="image" src="https://github.com/user-attachments/assets/1a69318b-bacf-439d-8b66-ed7d48c37984" />
 
-# Thành viên nhóm
+## Thành viên nhóm
 |    MSSV     |      Họ và Tên         |         Vai trò       |
 |-------------|------------------------|-----------------------|
 | 2351050114  | Nguyễn Thị Ngọc Ngoan  |                       |
@@ -9,11 +9,11 @@
 | 2351050211  | Nguyễn Huỳnh Như Ý     |                       |
 | 2351010257  | Võ Hồng Yến            |                       |   
 
-# 1. Mô tả
-## ***Tổng quan về project***
+## 1. Mô tả
+### ***Tổng quan về project***
 - Trong bối cảnh hiện nay, các bệnh mãn tính như ***tiểu đường (diabetes)*** đang gia tăng nhanh chóng và trở thành một trong những vấn đề y tế toàn cầu. Việc phát hiện sớm nguy cơ mắc bệnh đóng vai trò quan trọng trong việc điều trị và giảm thiểu biến chứng.
 - Bài toán trong nghiên cứu này là Xây dựng một mô hình Machine Learning nhằm dự đoán khả năng mắc bệnh tiểu đường dựa trên các chỉ số sinh học (Glucose, BMI, Blood Pressure, Insulin, SkhinThickness) và Thông tin tiền sử ( Age, Pregnancies).
-## ***Tổng quan về Dataset:***
+### ***Tổng quan về Dataset:***
 - **Dataset:** Kaggle--***Pima Indians Diabetes***__nhằm cung cấp thông tin liên quan đến bệnh tiểu đường.
 - **Phân loại**: Classification (phân loại nhị phân)
 - **Link:** https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database
@@ -29,24 +29,24 @@
 <br> -- Tối ưu hiệu suất mô hình, đặc biệt giảm thiểu trường hợp bỏ sót bệnh nhân (false negative)
 <br> -- Đánh giá mô hình bằng các chỉ số phù hợp như Recall và F1-score
 <br> -- Triển khai trong hệ thống web app
-# 2. Công nghệ:
+## 2. Công nghệ:
 - Machine learning: Python, Jupyter, Sklearn
 - Frontend: ReactJS
 - Backend: Flask
 - Tracking: wandb
-# 3. Cài đặt và chạy
-### Yêu cầu
+## 3. Cài đặt và chạy
+#### Yêu cầu
 
-### Chạy Notebook 
+#### Chạy Notebook 
 project_analysis.ipynb 
-### Chạy Backend 
+#### Chạy Backend 
 
-### Chạy Frontend 
+#### Chạy Frontend 
 
-### Truy cập
+#### Truy cập
 - Frontend: 
 - API:
-# 4. Demo
+## 4. Demo
 - wandb: [link:]
 - Screenshot:
 - Video: [link:] 
