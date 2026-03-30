@@ -22,6 +22,13 @@
 <br> -- Đánh giá mô hình bằng các chỉ số phù hợp như Recall và F1-score
 <br> -- Triển khai trong hệ thống web app
 ## Thành viên nhóm
+|                       |      Họ và Tên     |   Vai trò    |
+|-----------------------|----------------------|-----------------------|
+|       |       |                 |
+|  |     
+|| 
+|| |   |   
+| ||        |  
 
 
 
