@@ -9,10 +9,9 @@
 ## ***Mô tả bài toán và Bối cảnh thực tế:***
 - Trong bối cảnh hiện nay, các bệnh mãn tính như ***tiểu đường (diabetes)*** đang gia tăng nhanh chóng và trở thành một trong những vấn đề y tế toàn cầu. Việc phát hiện sớm nguy cơ mắc bệnh đóng vai trò quan trọng trong việc điều trị và giảm thiểu biến chứng.
 ***Bài toán đặt ra là:***
-- Xây dựng một mô hình Machine Learning nhằm dự đoán khả năng mắc bệnh tiểu đường dựa trên các chỉ số sinh học của bệnh nhân như Glucose, BMI, Blood Pressure, Insulin,...
-- Bài toán này thuộc dạng classification (phân loại nhị phân):
-<br> Output: Có mắc bệnh (1) hoặc không (0)
-
+- Xây dựng một mô hình Machine Learning nhằm dự đoán khả năng mắc bệnh tiểu đường dựa trên các chỉ số sinh học (Glucose, BMI, Blood Pressure, Insulin, SkhinThickness) và Thông tin tiền sử ( Age, Pregnancies).
+- ComeOut: Có mắc bệnh (1) hoặc không (0)
+- Bài toán này thuộc dạng classification (phân loại nhị phân)
 ***Ứng dụng thực tế:***
 - Hỗ trợ bác sĩ trong chẩn đoán ban đầu
 - Giảm chi phí xét nghiệm chuyên sâu
@@ -20,12 +19,26 @@
 ## ***Mục tiêu cụ thể***
 
 
-## ***Lý do lựa chọn***
-
+## ***Giải  lựa chọn***
+<br>***Một số mô hình nhóm chúng em lựa chọn:***
+- ***Random Forest:*** (lựa chọn phù hợp nhất)
+<br> Xử lý tốt dữ liệu phi tuyến
+<br> Giảm overfitting nhờ ensemble
+- ***Logistic Regression***
+<br> Dễ hiểu, baseline tốt
+<br> Phù hợp bài toán nhị phân
+- Để đánh giá hiệu suất, chúng em sử dụng Recall và F1-score, vì trong bài toán y tế, việc giảm thiểu bỏ sót bệnh nhân quan trọng hơn độ chính xác tổng thể.
 # 2. Phương pháp:
-## ***Mô tả dataset***
-Bộ dữ liệu nhằm cung cấp thông tin liên quan đến bệnh tiểu đường. Bao gồm ***768 mẫu*** với ***8 biến độc lập (các chỉ số lâm sàng)*** và ***1 biến mục tiêu (Outcome)***. Mục tiêu là phân loại biến mục tiêu thành " Không bệnh" và " Có bệnh" bằng cách sử dụng các thuật toán máy học khác nhau và tìm ra thuật toán phù hợp nhất với bộ dữ liệu.
-# Attributes
+## ***2.1. Mô tả dataset***
+- Dataset sử dụng là Pima Indians Diabetes Dataset nhằm cung cấp thông tin liên quan đến bệnh tiểu đường.
+- Bao gồm:
+<br> Số mẫu: 768
+<br> Số features: 8 ( Glucose, BloodPressure, BMI, Insulin, Age, Pregnancies, SkinThickness, DiabetesPedigreeFunction)
+<br> Biến mục tiêu: Outcome (0/1)
+- Đặc điểm raw dataset:
+<br> Có giá trị thiếu (được biểu diễn bằng 0)
+<br> Một số feature có phân phối lệch
+### ***2 Mô tả Features***
 - **Pregnancies:** Số lần mang thai của bệnh nhân.
 - **Glucose:** Nồng độ đường trong huyết tương sau 2 giờ thực hiện nghiệm pháp dung nạp glucose đường uống (OGTT).
 - **BloodPressure:** Huyết áp tâm trương (mm Hg).
@@ -35,3 +48,7 @@ Bộ dữ liệu nhằm cung cấp thông tin liên quan đến bệnh tiểu đ
 - **DiabetesPedigreeFunction:** Chỉ số phả hệ bệnh tiểu đường (đánh giá nguy cơ di truyền dựa trên lịch sử gia đình).
 - **Age:** Tuổi của bệnh nhân (tính theo năm).
 - **Outcome (Biến mục tiêu):** Biến phân loại (0: Không mắc bệnh, 1: Mắc bệnh).
+## ***2.2. Các bước preprocessing***
+## ***2.3. Models đã xử dụng***
+## ***2.4. Tài liệu tham khảo***
+# Kết quả
