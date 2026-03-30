@@ -11,7 +11,7 @@
 ***Bài toán đặt ra là:***
 - Xây dựng một mô hình Machine Learning nhằm dự đoán khả năng mắc bệnh tiểu đường dựa trên các chỉ số sinh học của bệnh nhân như Glucose, BMI, Blood Pressure, Insulin,...
 - Bài toán này thuộc dạng classification (phân loại nhị phân):
-+ Output: Có mắc bệnh (1) hoặc không (0)
+<br> Output: Có mắc bệnh (1) hoặc không (0)
 
 ***Ứng dụng thực tế:***
 - Hỗ trợ bác sĩ trong chẩn đoán ban đầu
@@ -20,7 +20,7 @@
 ## ***Mục tiêu cụ thể***
 
 
-# ***Lý do lựa chọn***
+## ***Lý do lựa chọn***
 
 # 2. Phương pháp:
 ## ***Mô tả dataset***
