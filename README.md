@@ -2,7 +2,7 @@
 - **Loại bài toán:** Classification
 - **Dataset:** Kaggle-Pima Indians Diabetes
 - **Link:** https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database
--  
+  
 <img width="800" height="450" alt="image" src="https://github.com/user-attachments/assets/1a69318b-bacf-439d-8b66-ed7d48c37984" />
 
 # Tổng quan về project
