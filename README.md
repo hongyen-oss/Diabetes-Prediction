@@ -1,5 +1,5 @@
 # Đề tài: số 10 - Diabetes-Prediction 
-<img width="800" height="450" alt="image" src="https://github.com/user-attachments/assets/1a69318b-bacf-439d-8b66-ed7d48c37984" />
+<img width="800" height="450" alt="image" src="screenshots/poster.jpg" />
 
 ## Thành viên nhóm
 |    MSSV     |      Họ và Tên         |         Vai trò       |
