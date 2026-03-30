@@ -50,7 +50,7 @@ project_analysis.ipynb
 - wandb: [link:]
 - Screenshot:
 - Video: [link:] 
-# 5. Nộp bài
+## 5. Nộp bài
 - Báo cáo: .pdf
 - wandb link: .txt 
 
