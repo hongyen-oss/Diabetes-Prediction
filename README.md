@@ -38,7 +38,7 @@
 - Đặc điểm raw dataset:
 <br> Có giá trị thiếu (được biểu diễn bằng 0)
 <br> Một số feature có phân phối lệch
-### ***2 Mô tả Features***
+##### ***Mô tả Features***
 - **Pregnancies:** Số lần mang thai của bệnh nhân.
 - **Glucose:** Nồng độ đường trong huyết tương sau 2 giờ thực hiện nghiệm pháp dung nạp glucose đường uống (OGTT).
 - **BloodPressure:** Huyết áp tâm trương (mm Hg).
