@@ -5,10 +5,10 @@
   
 <img width="800" height="450" alt="image" src="https://github.com/user-attachments/assets/1a69318b-bacf-439d-8b66-ed7d48c37984" />
 
-# Tổng quan về project
 
-# Phương pháp:
-### Mô tả dataset
+
+# 2. Phương pháp:
+## ***Mô tả dataset***
 Bộ dữ liệu nhằm cung cấp thông tin liên quan đến bệnh tiểu đường. Bao gồm ***768 mẫu*** với ***8 biến độc lập (các chỉ số lâm sàng)*** và ***1 biến mục tiêu (Outcome)***. Mục tiêu là phân loại biến mục tiêu thành " Không bệnh" và " Có bệnh" bằng cách sử dụng các thuật toán máy học khác nhau và tìm ra thuật toán phù hợp nhất với bộ dữ liệu.
 # Attributes
 - **Pregnancies:** Số lần mang thai của bệnh nhân.
