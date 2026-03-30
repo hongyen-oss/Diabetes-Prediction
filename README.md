@@ -5,7 +5,22 @@
   
 <img width="800" height="450" alt="image" src="https://github.com/user-attachments/assets/1a69318b-bacf-439d-8b66-ed7d48c37984" />
 
+# 1. Giới thiệu
+## ***Mô tả bài toán và Bối cảnh thực tế:***
+- Trong bối cảnh hiện nay, các bệnh mãn tính như ***tiểu đường (diabetes)*** đang gia tăng nhanh chóng và trở thành một trong những vấn đề y tế toàn cầu. Việc phát hiện sớm nguy cơ mắc bệnh đóng vai trò quan trọng trong việc điều trị và giảm thiểu biến chứng.
+***Bài toán đặt ra là:***
+- Xây dựng một mô hình Machine Learning nhằm dự đoán khả năng mắc bệnh tiểu đường dựa trên các chỉ số sinh học của bệnh nhân như Glucose, BMI, Blood Pressure, Insulin,...
+- Bài toán này thuộc dạng classification (phân loại nhị phân):
++ Output: Có mắc bệnh (1) hoặc không (0)
 
+***Ứng dụng thực tế:***
+- Hỗ trợ bác sĩ trong chẩn đoán ban đầu
+- Giảm chi phí xét nghiệm chuyên sâu
+- Triển khai trong hệ thống web app
+## ***Mục tiêu cụ thể***
+
+
+# ***Lý do lựa chọn***
 
 # 2. Phương pháp:
 ## ***Mô tả dataset***
