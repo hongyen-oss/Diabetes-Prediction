@@ -6,7 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="04b81d32-0028-49f3-80c0-788a62401641" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Notebooks/project_analysis.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Notebooks/project_analysis.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notebooks/project_analysis.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/test.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/train.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/best_model.joblib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/diabetes_model.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_metadata.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/models/model_package.joblib" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
