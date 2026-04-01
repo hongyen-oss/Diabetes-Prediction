@@ -1,0 +1,74 @@
+{
+    "model_name": "Diabetes-Prediction",
+    "version": "v1.0",
+    "created_at": "2026-04-01 19:22:44",
+    "metrics": [
+        {
+            "Model": "Random Forest",
+            "Accuracy": 0.7142857142857143,
+            "Precision": 0.5595238095238095,
+            "Recall": 0.8703703703703703,
+            "F1-Score": 0.6811594202898551,
+            "AUC": 0.8301851851851852
+        },
+        {
+            "Model": "Logistic Regression",
+            "Accuracy": 0.7077922077922078,
+            "Precision": 0.5584415584415584,
+            "Recall": 0.7962962962962963,
+            "F1-Score": 0.6564885496183206,
+            "AUC": 0.8003703703703704
+        },
+        {
+            "Model": "Stacking Ensemble",
+            "Accuracy": 0.7662337662337663,
+            "Precision": 0.6363636363636364,
+            "Recall": 0.7777777777777778,
+            "F1-Score": 0.7,
+            "AUC": 0.8338888888888889
+        },
+        {
+            "Model": "SVM",
+            "Accuracy": 0.7142857142857143,
+            "Precision": 0.578125,
+            "Recall": 0.6851851851851852,
+            "F1-Score": 0.6271186440677966,
+            "AUC": 0.7951851851851852
+        },
+        {
+            "Model": "Decision Tree",
+            "Accuracy": 0.7532467532467533,
+            "Precision": 0.6379310344827587,
+            "Recall": 0.6851851851851852,
+            "F1-Score": 0.6607142857142857,
+            "AUC": 0.7887037037037037
+        }
+    ],
+    "features": [
+        "Pregnancies",
+        "Glucose",
+        "BloodPressure",
+        "SkinThickness",
+        "Insulin",
+        "BMI",
+        "DiabetesPedigreeFunction",
+        "Age",
+        "Glucose_BMI_Ratio",
+        "BMI_Category",
+        "Age_Group"
+    ],
+    "preprocessing": {
+        "imputation": "median",
+        "scaling": "StandardScaler",
+        "handle_zero_as_nan": true
+    },
+    "sampling": {
+        "method": "SMOTE",
+        "used_in_training": true,
+        "random_state": 42
+    },
+    "train_test_split": {
+        "test_size": 0.2,
+        "random_state": 42
+    }
+}
