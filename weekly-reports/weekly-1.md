@@ -10,7 +10,7 @@
 | Nguyễn Thị Ngọc Ngoan| 2351050114 | Đề xuất đề tài/tải dữ liệu/nghiên cứu đề tài/Phân công công việc|----------------|
 | Nguyễn Lê Duy Vương  | 2351050206 | Đề xuất đề tài/ nghiên cứu đề tài/Phân công công việc           |----------------|
 | Nguyễn Huỳnh Như Ý   | 2351050211 | Đề xuất đề tài/ nghiên cứu đề tài/Phân công công việc           |----------------|
-| Võ Hồng Yến          | 2351050114 | Đề xuất đề tài/ nghiên cứu đề tài/Phân công công việc           |----------------|
+| Võ Hồng Yến          | 2351010257 | Đề xuất đề tài/ nghiên cứu đề tài/Phân công công việc           |----------------|
 
 # 2. Tiến độ tổng thể
 |      Hạng mục       |   Trạng thái  |   %  |
