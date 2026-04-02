@@ -1,23 +1,52 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import InputScreen from './screens/InputScreen';
 import ResultScreen from './screens/ResultScreen';
+import api from './api';
 
 function App() {
   const [step, setStep] = useState(1);
-  const [userInput, setUserInput] = useState(null);
+  const [predictionResult, setPredictionResult] = useState(null);
+  const [history, setHistory] = useState([]);
+  const [loading, setLoading] = useState(false);
 
-  const handlePredict = (data) => {
-    setUserInput(data);
-    setStep(2);
+  // Hàm gọi API dự đoán
+  const handlePredict = async (formData) => {
+    setLoading(true);
+    try {
+      const response = await api.post('/predict', formData); //Backend phải có route @app.route('/api/predict', methods=['POST']).
+      setPredictionResult(response.data); // Kết quả gồm: outcome, proba....
+      setStep(2);
+      fetchHistory(); // Cập nhật lại lịch sử sau khi dự đoán mới
+    } catch (error) {
+      alert("Lỗi kết nối Backend: " + error.message);
+    } finally {
+      setLoading(false);
+    }
   };
 
+  // Hàm lấy lịch sử từ Database
+  const fetchHistory = async () => {
+    try {
+      const response = await api.get('/history');//Backend phải có route @app.route('/api/history', methods=['GET']).
+      setHistory(response.data);
+    } catch (error) {
+      console.error("Không thể lấy lịch sử", error);
+    }
+  };
+
+  useEffect(() => { fetchHistory(); }, []);
+
   return (
-    <div style={{ maxWidth: '400px', margin: '50px auto', textAlign: 'center' }}>
-      <h1>Onyx Diabetes AI</h1>
+    <div style={{ padding: '20px' }}>
+      {loading && <p>Đang tính toán...</p>}
       {step === 1 ? (
         <InputScreen onPredict={handlePredict} />
       ) : (
-        <ResultScreen info={userInput} onBack={() => setStep(1)} />
+        <ResultScreen
+          result={predictionResult}
+          history={history}
+          onBack={() => setStep(1)}
+        />
       )}
     </div>
   );

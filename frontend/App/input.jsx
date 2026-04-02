@@ -1,74 +1,106 @@
 import React, { useState } from 'react';
 
 const InputScreen = ({ onPredict }) => {
-  // State lưu trữ toàn bộ các trường theo cấu trúc TABLE diabetes_predict
-  const [data, setData] = useState({
-    name: '',       // Sẽ lưu vào table users
-    sdt: '',        // Sẽ lưu vào table users
+  // Khởi tạo state khớp với cấu trúc 2 bảng SQL
+  const [formData, setFormData] = useState({
+    // Dữ liệu bảng users
+    name: '',
+    sdt: '',
+    // Dữ liệu bảng diabetes_predict
     pregnancies: 0,
     glucose: '',
     bloodPressure: '',
     skinThickness: '',
     insulin: '',
     bmi: '',
-    diabetesPedigreeFunction: '',
+    DiabetesPedigreeFunction: '', // có thể viết tắt thành dpf
     age: ''
   });
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setData({ ...data, [name]: value });
+    setFormData({ ...formData, [name]: value });
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Gửi toàn bộ object data sang màn hình kết quả hoặc API
-    onPredict(data);
+    // Kiểm tra NOT NULL trong SQL)
+    if (!formData.sdt || !formData.name || !formData.glucose || !formData.bmi) {
+      alert("Vui lòng nhập đầy đủ Họ tên, SĐT và các chỉ số sức khỏe!");
+      return;
+    }
+    onPredict(formData); // Gửi dữ liệu sang App.jsx để gọi API
   };
 
   return (
-    <div style={styles.card}>
-      <h2 style={styles.title}>Nhập Thông Số Dự Đoán</h2>
+    <div style={styles.container}>
+      <h2 style={styles.header}>🩺 Nhập Thông Số Dự Đoán</h2>
       <form onSubmit={handleSubmit} style={styles.form}>
 
-        {/* THÔNG TIN NGƯỜI DÙNG (Table users) */}
+        {/* PHẦN 1: THÔNG TIN (Table: users) */}
         <div style={styles.section}>
-          <p style={styles.sectionTitle}>Thông tin cá nhân</p>
-          <input name="name" placeholder="Họ và tên" onChange={handleChange} style={styles.input} required />
-          <input name="sdt" placeholder="Số điện thoại (10 số)" onChange={handleChange} style={styles.input} required />
+          <h4 style={styles.sectionTitle}>Thông tin khách hàng</h4>
+          <input name="name" placeholder="Họ và tên" onChange={handleChange} style={styles.input} />
+          <input name="sdt" placeholder="Số điện thoại (10 số)" onChange={handleChange} style={styles.input} />
         </div>
 
-        {/* THÔNG SỐ LÂM SÀNG (Table diabetes_predict) */}
+        {/* PHẦN 2: CHỈ SỐ LÂM SÀNG (Table: diabetes_predict) nếu backend gọi request.json['Glucose'] thì cần điều chỉnh name = "Glucose" thành  */}
         <div style={styles.section}>
-          <p style={styles.sectionTitle}>Chỉ số sức khỏe</p>
+          <h4 style={styles.sectionTitle}>Chỉ số lâm sàng</h4>
           <div style={styles.grid}>
-            <input type="number" name="pregnancies" placeholder="Số lần mang thai" onChange={handleChange} style={styles.input} />
-            <input type="number" name="glucose" placeholder="Glucose" onChange={handleChange} style={styles.input} required />
-            <input type="number" name="bloodPressure" placeholder="Huyết áp (BP)" onChange={handleChange} style={styles.input} />
-            <input type="number" name="skinThickness" placeholder="Độ dày da" onChange={handleChange} style={styles.input} />
-            <input type="number" name="insulin" placeholder="Insulin" onChange={handleChange} style={styles.input} />
-            <input type="number" step="0.1" name="bmi" placeholder="Chỉ số BMI" onChange={handleChange} style={styles.input} required />
-            <input type="number" step="0.001" name="diabetesPedigreeFunction" placeholder="DPF (Di truyền)" onChange={handleChange} style={styles.input} />
-            <input type="number" name="age" placeholder="Tuổi" onChange={handleChange} style={styles.input} required />
+            <div style={styles.field}>
+              <label style={styles.label}>Số lần mang thai</label>
+              <input type="number" name="pregnancies" onChange={handleChange} style={styles.input} placeholder="0" />
+            </div>
+            <div style={styles.field}>
+              <label style={styles.label}>Glucose (Đường huyết)</label>
+              <input type="number" name="glucose" onChange={handleChange} style={styles.input} placeholder="mg/dL" />
+            </div>
+            <div style={styles.field}>
+              <label style={styles.label}>Huyết áp</label>
+              <input type="number" name="bloodPressure" onChange={handleChange} style={styles.input} placeholder="mm Hg" />
+            </div>
+            <div style={styles.field}>
+              <label style={styles.label}>Độ dày da</label>
+              <input type="number" name="skinThickness" onChange={handleChange} style={styles.input} placeholder="mm" />
+            </div>
+            <div style={styles.field}>
+              <label style={styles.label}>Insulin</label>
+              <input type="number" name="insulin" onChange={handleChange} style={styles.input} placeholder="mu U/ml" />
+            </div>
+            <div style={styles.field}>
+              <label style={styles.label}>Chỉ số BMI</label>
+              <input type="number" step="0.1" name="bmi" onChange={handleChange} style={styles.input} placeholder="25.5" />
+            </div>
+            <div style={styles.field}>
+              <label style={styles.label}>Hệ số di truyền (DPF)</label>
+              <input type="number" step="0.001" name="dpf" onChange={handleChange} style={styles.input} placeholder="0.47" />
+            </div>
+            <div style={styles.field}>
+              <label style={styles.label}>Tuổi</label>
+              <input type="number" name="age" onChange={handleChange} style={styles.input} placeholder="Tuổi" />
+            </div>
           </div>
         </div>
 
-        <button type="submit" style={styles.button}>Phân Tích Kết Quả</button>
+        <button type="submit" style={styles.button}>Phân Tích & Lưu Kết Quả</button>
       </form>
     </div>
   );
 };
 
-// Styles tối ưu cho giao diện nhập liệu nhiều trường
+// CSS format giao diện
 const styles = {
-  card: { backgroundColor: '#fff', padding: '25px', borderRadius: '12px', boxShadow: '0 4px 15px rgba(0,0,0,0.1)', maxWidth: '500px', margin: 'auto' },
-  title: { color: '#2c3e50', marginBottom: '20px', textAlign: 'center' },
-  section: { marginBottom: '20px', textAlign: 'left' },
-  sectionTitle: { fontWeight: 'bold', color: '#34495e', borderBottom: '1px solid #eee', paddingBottom: '5px', marginBottom: '10px' },
+  container: { backgroundColor: '#fff', padding: '25px', borderRadius: '15px', boxShadow: '0 10px 25px rgba(0,0,0,0.1)', maxWidth: '550px', margin: '20px auto' },
+  header: { color: '#2c3e50', textAlign: 'center', marginBottom: '25px' },
+  section: { marginBottom: '20px' },
+  sectionTitle: { fontSize: '15px', color: '#3498db', borderBottom: '2px solid #3498db', paddingBottom: '5px', marginBottom: '15px', fontWeight: 'bold' },
+  grid: { display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '15px' },
+  field: { display: 'flex', flexDirection: 'column' },
+  label: { fontSize: '12px', marginBottom: '5px', fontWeight: 'bold', color: '#7f8c8d' },
+  input: { padding: '10px', borderRadius: '6px', border: '1px solid #ddd', fontSize: '14px', outline: 'none' },
   form: { display: 'flex', flexDirection: 'column' },
-  grid: { display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '10px' },
-  input: { padding: '10px', borderRadius: '6px', border: '1px solid #ccc', fontSize: '14px', outline: 'none' },
-  button: { marginTop: '20px', padding: '15px', backgroundColor: '#2ecc71', color: 'white', border: 'none', borderRadius: '8px', fontSize: '16px', fontWeight: 'bold', cursor: 'pointer' }
+  button: { marginTop: '20px', padding: '15px', backgroundColor: '#2ecc71', color: 'white', border: 'none', borderRadius: '8px', fontSize: '16px', fontWeight: 'bold', cursor: 'pointer', transition: '0.3s' }
 };
 
 export default InputScreen;
