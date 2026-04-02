@@ -1,4 +1,5 @@
 anyio==4.12.1
+appnope==0.1.4
 argon2-cffi==25.1.0
 argon2-cffi-bindings==25.1.0
 arrow==1.4.0
@@ -67,18 +68,19 @@ pandas==3.0.1
 pandas-stubs==3.0.0.260204
 pandocfilters==1.5.1
 parso==0.8.6
+pexpect==4.9.0
 pillow==12.1.1
 platformdirs==4.9.4
 prometheus_client==0.24.1
 prompt_toolkit==3.0.52
 psutil==7.2.2
+ptyprocess==0.7.0
 pure_eval==0.2.3
 pycparser==3.0
 Pygments==2.19.2
 pyparsing==3.3.2
 python-dateutil==2.9.0.post0
 python-json-logger==4.0.0
-pywinpty==3.0.3
 PyYAML==6.0.3
 pyzmq==27.1.0
 referencing==0.37.0
