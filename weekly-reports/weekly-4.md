@@ -7,7 +7,7 @@
 # 1. Công việc đã hoàn thành
 |        Thành viên    |    MSSV    |               Công việc         | Link Commit/PR |
 |----------------------|------------|---------------------------------|----------------|
-| Võ Hồng Yến          | 2351050114 | Lưu full Pipeline + Metadata    |https://github.com/hongyen-oss/Diabetes-Prediction/tree/4c10040cf479e305c3cb1eab0f112c5e65709911|
+| Võ Hồng Yến          | 2351010257| Lưu full Pipeline + Metadata    |https://github.com/hongyen-oss/Diabetes-Prediction/tree/4c10040cf479e305c3cb1eab0f112c5e65709911|
 | Nguyễn Thị Ngọc Ngoan| 2351050114 | Hỗ trợ lưu full Pipeline        |https://github.com/hongyen-oss/Diabetes-Prediction/tree/4daaa930a371c371f0fb28ec24ea98bd14a546e5|
 | Nguyễn Huỳnh Như Ý   | 2351050211 | Demo load + predict             |https://github.com/hongyen-oss/Diabetes-Prediction/tree/c877f4854eacf40e90702be41db933ddb6df0a03|
 | Nguyễn Lê Duy Vương  | 2351050206 | Hỗ trợ demo load                |https://github.com/hongyen-oss/Diabetes-Prediction/tree/3993914fdffd721414536f4ed7c6f15d37ee0ec2|
