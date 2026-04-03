@@ -28,7 +28,7 @@ const ResultScreen = ({ result, history, onBack }) => {
             {history.map((item, index) => (
               <tr key={index}>
                 <td>{new Date(item.created_at).toLocaleDateString()}</td>
-                <td>{item.Glucose}</td> /* nếu backend viết chữ thường thì cần sửa lại  */
+                <td>{item.Glucose}</td> {/* nếu backend viết chữ thường thì cần sửa lại  */}
                 <td>{item.BMI}</td>
                 <td style={{ color: item.Outcome === 1 ? 'red' : 'green' }}>
                   {item.Outcome === 1 ? 'Positive' : 'Negative'}

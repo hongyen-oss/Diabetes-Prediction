@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import InputScreen from './screens/InputScreen';
-import ResultScreen from './screens/ResultScreen';
+import InputScreen from './App/input';
+import ResultScreen from './App/result';
 import api from './api';
 
 function App() {
