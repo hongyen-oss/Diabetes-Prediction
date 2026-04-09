@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="04b81d32-0028-49f3-80c0-788a62401641" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Diabetes-Prediction.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Diabetes-Prediction.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Notebooks/project_analysis.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Notebooks/project_analysis.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/model_metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/model_metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_package.joblib" beforeDir="false" afterPath="$PROJECT_DIR$/models/model_package.joblib" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,9 +59,9 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "feature/backend",
-    "last_opened_file_path": "D:/Diabetes-Prediction",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+    "git-widget-placeholder": "modeling__wb",
+    "last_opened_file_path": "/Users/ngoc_ngoan/Documents/a_TTNT/Diabetes-Prediction",
+    "settings.editor.selected.configurable": "preferences.fileTypes"
   }
 }]]></component>
   <component name="RecentsManager">
