@@ -5,18 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="04b81d32-0028-49f3-80c0-788a62401641" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/database.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/db_models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/schemas.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Diabetes-Prediction.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Diabetes-Prediction.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/aiapp/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/aiapp/extension.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/aiapp/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/aiapp/routers/api.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/aiapp/services/ml_loader.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/app.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +17,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Jupyter Notebook" />
+        <option value="CSS File" />
         <option value="Python Script" />
+        <option value="JavaScript File" />
+        <option value="JSX File" />
       </list>
     </option>
   </component>
@@ -68,16 +61,36 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "feature/frontend",
     "last_opened_file_path": "D:/Diabetes-Prediction",
+    "list.type.of.created.stylesheet": "CSS",
+    "nodejs_package_manager_path": "yarn",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Diabetes-Prediction\frontend\components" />
       <recent name="D:\Diabetes-Prediction" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/frontend/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -94,6 +107,9 @@
       <option name="presentableId" value="Default" />
       <updated>1773413436853</updated>
       <workItem from="1775704624356" duration="7677000" />
+      <workItem from="1775731405170" duration="1847000" />
+      <workItem from="1775733279344" duration="4371000" />
+      <workItem from="1775748383085" duration="663000" />
     </task>
     <servers />
   </component>
