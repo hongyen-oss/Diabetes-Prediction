@@ -155,6 +155,6 @@ def predict_diabetes(features: schemas.PatientFeature, db: Session = Depends(get
 
 @app.get("/history")
 def get_prediction_history(skip: int = 0, limit: int = 10, db: Session = Depends(get_db)):
-    records = db.query(db_models.PredictionHistory).order_by(db_models.PredictionHistory.created_date.desc()).offset(
+    records = db.query(db_models.PredictionHistory).order_by(db_models.PredictionHistory.created_date.asc()).offset(
         skip).limit(limit).all()
     return records
