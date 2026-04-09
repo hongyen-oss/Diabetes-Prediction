@@ -1,7 +1,7 @@
 from sqlalchemy import Column, Integer, String, Float, TIMESTAMP, ForeignKey
 from sqlalchemy.orm import relationship
 from sqlalchemy.sql import func
-from backend import db, app
+from aiapp.extension import db
 
 class Users(db.Model):
     __tablename__ = "users"
