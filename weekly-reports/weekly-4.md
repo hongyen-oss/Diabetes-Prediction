@@ -21,7 +21,7 @@
 | Hỗ trợ demo load                             | Đã hoàn thành thành | 100% |
 **Tổng kết tiến độ: 100%**
 ---
-# 3. Kế hoạch tuần 4:   
+# 3. Kế hoạch tuần 5:   
 |        Thành viên     |Công việc dự kiến   |
 |-----------------------|--------------------|
 | Nguyễn Thị Ngọc Ngoan | Frontend           |
