@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="04b81d32-0028-49f3-80c0-788a62401641" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Diabetes-Prediction.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Diabetes-Prediction.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly-reports/weekly-4.md" beforeDir="false" afterPath="$PROJECT_DIR$/weekly-reports/weekly-4.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly-reports/weekly-5.md" beforeDir="false" afterPath="$PROJECT_DIR$/weekly-reports/weekly-5.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notebooks/project_analysis.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Notebooks/project_analysis.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/model_metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/model_metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_package.joblib" beforeDir="false" afterPath="$PROJECT_DIR$/models/model_package.joblib" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +64,7 @@
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
     &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/frontend&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/Diabetes-Prediction&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
