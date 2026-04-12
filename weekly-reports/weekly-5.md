@@ -22,7 +22,13 @@
 **Tổng kết tiến độ: 100%**
 ---
 # 3. Kế hoạch tuần 6:   
-
+ 
+|        Thành viên     | Công việc dự kiến |
+|-----------------------|----------------|
+| Nguyễn Thị Ngọc Ngoan | wandb          |
+| Võ Hồng Yến           | wandb          |
+| Nguyễn Lê Duy Vương   | front/backend  |
+| Nguyễn Huỳnh Như Ý    | Báo cáo        |
 # 4. Khó khăn/ Cần hỗ trợ
 
 -**Ngày nộp:** 05/04/2026
