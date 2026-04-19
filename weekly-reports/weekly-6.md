@@ -21,8 +21,14 @@
 | Frontend/Backend | Đã hoàn thành thành | 100% |
 **Tổng kết tiến độ: 100%**
 ---
-# 3. Kế hoạch tuần 7:   
-
+# 3. Kế hoạch tuần 7:     
+ 
+|        Thành viên     | Công việc dự kiến             |
+|-----------------------|-------------------------------|
+| Nguyễn Thị Ngọc Ngoan | Chuẩn bị demo + Thuyết trình  |
+| Võ Hồng Yến           | Chuẩn bị demo + Thuyết trình  |
+| Nguyễn Lê Duy Vương   | Chuẩn bị demo + Thuyết trình  |
+| Nguyễn Huỳnh Như Ý    | Chuẩn bị demo + Thuyết trình  |
 # 4. Khó khăn/ Cần hỗ trợ
 
 -**Ngày nộp:**12 /04/2026
