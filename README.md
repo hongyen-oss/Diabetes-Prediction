@@ -36,23 +36,24 @@
 - Tracking: wandb
 ## 3. Cài đặt và chạy
 #### Yêu cầu
-Python 3.11.9
-Node.js: v24.14.1
+<br>Python 3.11.9
+<br>Node.js: v24.14.1
 #### Chạy Notebook 
 project_analysis.ipynb 
 #### Chạy Backend 
-cd backend
-uvicorn main:app --reload
+<br>cd backend
+<br>uvicorn main:app --reload
 #### Chạy Frontend 
-cd frontend
-npm start
+<br>frontend
+<br>npm start
 #### Truy cập
 - Frontend: http://localhost:3000
 - Backend: http://127.0.0.1:8000
 ## 4. Demo
 - wandb: https://wandb.ai/yen-h/Diabetes_Prediction?nw=nwuservhy
 - Screenshot:
-<img src="screenshots/input_form.jpg" width="300" alt="Giao diện dự đoán"> | <img src="screenshots/history_logs.jpg" width="300" alt="Lịch sử khám">
+<img src="screenshots/input_form.jpg" width="300" alt="Giao diện dự đoán">
+<img src="screenshots/history_logs.jpg" width="300" alt="Lịch sử khám">
 
 - **Video**:
 [Xem video tại đây](https://drive.google.com/file/d/1XGriCYItsASSgDSFWPC1xK6ot6HgWiSd/view?usp=drive_link)
