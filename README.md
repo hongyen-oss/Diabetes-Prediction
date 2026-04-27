@@ -25,32 +25,39 @@
 <br> -- Có giá trị thiếu (được biểu diễn bằng 0)
 <br> -- Một số feature có phân phối lệch
 - **Mục tiêu:**
-<br> -- Xây dựng mô hình phân loại có khả năng dự đoán chính xác tình trạng bệnh: Hỗ trợ bác sĩ trong chẩn đoán ban đầu, Giảm chi phí xét nghiệm chuyên sâu.
+<br> -- Xây dựng mô hình phân loại có khả năng dự đoán chính xác tình trạng bệnh: Hỗ trợ bác sĩ trong chẩn đoán ban đầu, giảm chi phí xét nghiệm chuyên sâu.
 <br> -- Tối ưu hiệu suất mô hình, đặc biệt giảm thiểu trường hợp bỏ sót bệnh nhân (false negative)
 <br> -- Đánh giá mô hình bằng các chỉ số phù hợp như Recall và F1-score
 <br> -- Triển khai trong hệ thống web app
 ## 2. Công nghệ:
 - Machine learning: Python, Jupyter, Sklearn
 - Frontend: ReactJS
-- Backend: Flask
+- Backend: FastAPI
 - Tracking: wandb
 ## 3. Cài đặt và chạy
 #### Yêu cầu
-
+Python 3.11.9
+Node.js: v24.14.1
 #### Chạy Notebook 
 project_analysis.ipynb 
 #### Chạy Backend 
-
+cd backend
+uvicorn main:app --reload
 #### Chạy Frontend 
-
+cd frontend
+npm start
 #### Truy cập
-- Frontend: 
-- API:
+- Frontend: http://localhost:3000
+- Backend: http://127.0.0.1:8000
 ## 4. Demo
-- wandb: [link:]
+- wandb: https://wandb.ai/yen-h/Diabetes_Prediction?nw=nwuservhy
 - Screenshot:
-- Video: [link:] 
+<img src="screenshots/input_form.jpg" width="300" alt="Giao diện dự đoán"> | <img src="screenshots/history_logs.jpg" width="300" alt="Lịch sử khám">
+- Video:
+<video src="demo/demo.mp4" controls="controls" style="max-width: 100%;">
+</video>
+
 ## 5. Nộp bài
-- Báo cáo: .pdf
-- wandb link: .txt 
+- Báo cáo: report/report.pdf 
+- wandb link: wandb_link.txt
 
