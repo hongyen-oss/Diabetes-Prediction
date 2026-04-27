@@ -2,12 +2,12 @@
 <img width="800" height="450" alt="image" src="screenshots/poster.jpg" />
 
 ## Thành viên nhóm
-|    MSSV     |      Họ và Tên         |         Vai trò       |
-|-------------|------------------------|-----------------------|
-| 2351050114  | Nguyễn Thị Ngọc Ngoan  |                       |
-| 2351050206  | Nguyễn Lê Duy Vương    |                       |
-| 2351050211  | Nguyễn Huỳnh Như Ý     |                       |
-| 2351010257  | Võ Hồng Yến            |                       |   
+|    MSSV     |      Họ và Tên         |     Vai trò    |
+|-------------|------------------------|----------------|
+| 2351050114  | Nguyễn Thị Ngọc Ngoan  | Full-stack     |
+| 2351050206  | Nguyễn Lê Duy Vương    | Full-stack     |
+| 2351050211  | Nguyễn Huỳnh Như Ý     | Full-stack     |
+| 2351010257  | Võ Hồng Yến            | Full-stack     |   
 
 ## 1. Mô tả
 ### ***Tổng quan về project***
@@ -53,10 +53,9 @@ npm start
 - wandb: https://wandb.ai/yen-h/Diabetes_Prediction?nw=nwuservhy
 - Screenshot:
 <img src="screenshots/input_form.jpg" width="300" alt="Giao diện dự đoán"> | <img src="screenshots/history_logs.jpg" width="300" alt="Lịch sử khám">
-- Video:
-<video src="demo/demo.mp4" controls="controls" style="max-width: 100%;">
-</video>
 
+- **Video**:
+[Xem video tại đây](https://drive.google.com/file/d/1XGriCYItsASSgDSFWPC1xK6ot6HgWiSd/view?usp=drive_link)
 ## 5. Nộp bài
 - Báo cáo: report/report.pdf 
 - wandb link: wandb_link.txt
