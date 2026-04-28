@@ -117,7 +117,6 @@ const PredictionForm = () => {
                     {historyData.map((item, index) => (
                       <tr key={index}>
                         <td>#{item.id}</td>
-                        <td>{formatDate(item.created_date)}</td>
                         <td>{item.glucose}</td>
                         <td>{item.blood_pressure}</td>
                         <td>{item.bmi}</td>
@@ -128,6 +127,7 @@ const PredictionForm = () => {
                             {item.prediction === 1 ? "Có Nguy Cơ" : "An Toàn"}
                           </span>
                         </td>
+                        <td>{formatDate(item.created_date)}</td>
                       </tr>
                     ))}
                   </tbody>
