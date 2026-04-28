@@ -1,0 +1,39 @@
+{
+  "os":  "Windows-10-10.0.26100-SP0",
+  "python":  "CPython 3.11.6",
+  "startedAt":  "2026-04-28T07:39:33.028065Z",
+  "program":  "Notebooks/project_analysis.ipynb",
+  "codePath":  "Notebooks/project_analysis.ipynb",
+  "git":  {
+    "remote":  "https://github.com/hongyen-oss/Diabetes-Prediction.git",
+    "commit":  "20f5ce6d1bd2310e383c1a5ceef7480476d45f57"
+  },
+  "email":  "vohongyentg@gmail.com",
+  "root":  "D:\\Diabetes-Prediction\\Notebooks",
+  "host":  "LAPTOP-L04UTGQ9",
+  "executable":  "D:\\Diabetes-Prediction\\.venv\\Scripts\\python.exe",
+  "cpu_count":  8,
+  "cpu_count_logical":  12,
+  "gpu":  "NVIDIA GeForce RTX 3050 Laptop GPU",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "104856547328",
+      "used":  "39609528320"
+    }
+  },
+  "memory":  {
+    "total":  "16870006784"
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA GeForce RTX 3050 Laptop GPU",
+      "memoryTotal":  "4294967296",
+      "cudaCores":  2048,
+      "architecture":  "Ampere",
+      "uuid":  "GPU-907df78f-9998-d624-bc0e-07a8a499cfc8"
+    }
+  ],
+  "cudaVersion":  "12.4",
+  "writerId":  "5e6f4qm7o9sjl04aanu258o3gkv45lir"
+}
