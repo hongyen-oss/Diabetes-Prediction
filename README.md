@@ -36,15 +36,27 @@
 - Tracking: wandb
 ## 3. Cài đặt và chạy
 #### Yêu cầu
-Python 3.11.9
-<br>Node.js: v24.14.1
+- **Python:**  Đảm bảo bạn đã cài đặt Python (phiên bản 3.9 trở lên)
+- **Node.js & npm:** (Để chạy Frontend React)
+#### Cài đặt
+- Tạo môi trường ảo:
+   ###### Cách 1
+   python -m venv .venv
+   ###### Cách 2 (Nếu dùng Windows launcher)
+   py -m venv .venv
+- Kích hoạt môi trường ảo:
+<br>Windows: .venv\Scripts\activate
+<br> macOS/Linux: source .venv/bin/activate
+- Cài đặt thư :
+pip install -r requirements.txt
 #### Chạy Notebook 
-project_analysis.ipynb 
+jupyter notebook notebooks/project_analysis.ipynb
 #### Chạy Backend 
 cd backend
 <br>uvicorn main:app --reload
 #### Chạy Frontend 
 cd frontend
+<br>npm install
 <br>npm start
 #### Truy cập
 - Frontend: http://localhost:3000
