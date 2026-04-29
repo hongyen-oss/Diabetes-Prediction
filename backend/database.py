@@ -1,7 +1,7 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, declarative_base
 
-SQLALCHEMY_DATABASE_URI = "mysql+pymysql://root:abc123@localhost/diabetesdb"
+SQLALCHEMY_DATABASE_URI = "mysql+pymysql://root:Ntnn1009%40@localhost/diabetesdb"
 
 engine = create_engine(SQLALCHEMY_DATABASE_URI)
 
